@@ -15,10 +15,10 @@ export const reducer= (store=initState, {payload, type}) => {
 			}	
 
 			case ADD_CITY:
-				console.log("Added")
+				console.log("Store", store)
 			return {
 				...store,
-				city: [...payload],
+				city: [...payload]
 			}
 
 			case DELETE_CITY:

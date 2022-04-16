@@ -17,7 +17,7 @@ const dispatch= useDispatch();
 		axios.get("http://localhost:5000/cities")
 		.then((res) => {
 			console.log("Data", res.data)
-			dispatch(addCity(res))
+			dispatch(addCity(res.data))
 			
 		})
 		

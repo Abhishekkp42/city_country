@@ -13,7 +13,7 @@ const dispatch=useDispatch()
 
 const handleSubmit=() => {
 	axios.post("http://localhost:5000/cities",{country:country,city:city,population:population}).then((res) => {
-		dispatch(addCity(res))
+		dispatch(addCity(res.data))
 	})
 	console.log("Country Added")
 }
