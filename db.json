@@ -1,5 +1,10 @@
 {
-  "countries": [],
+  "countries": [
+    {
+      "country": "India",
+      "id": 1
+    }
+  ],
   "cities": [
     {
       "country": "India",
