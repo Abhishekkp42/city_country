@@ -1,4 +1,11 @@
 {
   "countries": [],
-  "cities": []
+  "cities": [
+    {
+      "country": "India",
+      "city": "kolkata",
+      "population": "2500000",
+      "id": 1
+    }
+  ]
 }
