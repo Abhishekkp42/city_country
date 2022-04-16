@@ -7,18 +7,6 @@
   ],
   "cities": [
     {
-      "country": "India",
-      "city": "kolkata",
-      "population": "2500000",
-      "id": 1
-    },
-    {
-      "country": "India",
-      "city": "dhanbad",
-      "population": "200000",
-      "id": 2
-    },
-    {
       "country": "india",
       "city": "dhanbd",
       "population": "123188391",
@@ -32,9 +20,9 @@
     },
     {
       "country": "India",
-      "city": "BEHALA",
+      "city": "patna",
       "population": "89736424",
-      "id": 5
+      "id": 6
     }
   ]
 }

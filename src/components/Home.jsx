@@ -23,6 +23,13 @@ const dispatch= useDispatch();
 		
 	}
 
+	const handleDelete=(id) => {
+		console.log("Delete")
+		axios.delete(`http://localhost:5000/cities/${id}`).then(() => {
+			getData();
+		})
+	}
+
 	return <div>
 		<table>
         <thead>
