@@ -1,15 +1,20 @@
 import { useState } from "react"
 import axios from "axios";
+import { addCity } from "../Redux/action";
+import { useDispatch } from "react-redux";
 
 export const City = () => {
 
 const [city, setCity] = useState("")
 const [country, setCountry] = useState("")
 const [population, setPopulation] = useState("")
+const dispatch=useDispatch()
 
 
 const handleSubmit=() => {
-	axios.post("http://localhost:5000/cities",{country:country,city:city,population:population})
+	axios.post("http://localhost:5000/cities",{country:country,city:city,population:population}).then((res) => {
+		dispatch(addCity(res))
+	})
 	console.log("Country Added")
 }
 

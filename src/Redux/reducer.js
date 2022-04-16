@@ -11,13 +11,14 @@ export const reducer= (store=initState, {payload, type}) => {
 		case ADD_COUNTRY:
 			return {
 				...store,
-				countries: [...payload],
+				country: [...payload],
 			}	
 
 			case ADD_CITY:
+				console.log("Added")
 			return {
 				...store,
-				cities: [...payload],
+				city: [...payload],
 			}
 
 			case DELETE_CITY:

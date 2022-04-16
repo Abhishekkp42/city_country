@@ -11,6 +11,30 @@
       "city": "kolkata",
       "population": "2500000",
       "id": 1
+    },
+    {
+      "country": "India",
+      "city": "dhanbad",
+      "population": "200000",
+      "id": 2
+    },
+    {
+      "country": "india",
+      "city": "dhanbd",
+      "population": "123188391",
+      "id": 3
+    },
+    {
+      "country": "India",
+      "city": "giridih",
+      "population": "87543235",
+      "id": 4
+    },
+    {
+      "country": "India",
+      "city": "BEHALA",
+      "population": "89736424",
+      "id": 5
     }
   ]
 }
