@@ -45,7 +45,7 @@ const dispatch= useDispatch();
           {cities.map((el, i) => {
             return (
               <tr key={el.id}>
-                <td>{i}</td>
+                <td>{el.id}</td>
                 <td>{el.country}</td>
 				<td>{el.city}</td>
                 <td>{el.population}</td>
